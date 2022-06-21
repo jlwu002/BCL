@@ -28,7 +28,7 @@ pip install -r requirements.txt
 Python 3.7+ is required.
 
 # Curriculum Learning for DQN models
-For DQN-style models we experiment on four Atari-2600 games: Pong, Freeway, BankHeist and RoadRunner. Our implementation is based on [RADIAL-DQN](https://github.com/tuomaso/radial_rl_v2/tree/main/Atari). The code is in the `DQN_Atari/` folder and runs on GPU by default.
+For DQN-style models we experiment on four Atari-2600 games: Pong, Freeway, BankHeist and RoadRunner. Our implementation is based on [RADIAL-DQN](https://github.com/tuomaso/radial_rl_v2/tree/main/Atari). The code is in the `BCL_DQN_Atari/` folder and runs on GPU by default.
 
 ## Pre-trained Models
 Pre-trained models are available [here](https://drive.google.com/drive/folders/1oxvjRiylpCjiqTXra5NnmcJqDn1qAVxr?usp=sharing). It contains 
@@ -89,7 +89,7 @@ In this example, the environment is Pong, attacker's adversarial perturbation si
 Note that we fixed the seeds of the environment during evaluation, meaning the results are the same across different runs. However, we noticed that when the code is run on different machines, sometimes the results might be slightly different (they still remain on the same magnitude level). 
 
 # Curriculum Learning for PPO models
-For PPO-style models we experiment on two Procgen games: FruitBot and Jumper. Our implementation is based on [RADIAL-PPO](https://github.com/tuomaso/radial_rl_v2/tree/main/Procgen). The code is in the `PPO_Procgen/` folder and runs on GPU by default.
+For PPO-style models we experiment on two Procgen games: FruitBot and Jumper. Our implementation is based on [RADIAL-PPO](https://github.com/tuomaso/radial_rl_v2/tree/main/Procgen). The code is in the `BCL_PPO_Procgen/` folder and runs on GPU by default.
 
 ## Pre-trained Models
 Pre-trained models are available under folders `BCL_PPO_Procgen/trained_models` and `BCL_PPO_Procgen/log`. It contains 
