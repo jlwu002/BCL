@@ -1,7 +1,7 @@
 # Robust Deep Reinforcement Learning through Bootstrapped Opportunistic Curriculum
 
 This repository contains the code for our paper:
-_Junlin Wu and Yevgeniy Vorobeychik, "Robust Deep Reinforcement Learning through Bootstrapped Opportunistic Curriculum", ICML 2022_
+_Junlin Wu and Yevgeniy Vorobeychik, "Robust Deep Reinforcement Learning through Bootstrapped Opportunistic Curriculum", ICML 2022._ [(paper pdf)](https://arxiv.org/pdf/2206.10057.pdf)
 
 We propose **Bootstrapped Opportunistic Adversarial Curriculum Learning (BCL)**, a novel flexible adversarial curriculum learning framework for robust reinforcement learning.
 
