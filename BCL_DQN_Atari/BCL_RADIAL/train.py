@@ -15,7 +15,7 @@ from evaluate import eval_greedy_wc, eval_action_pert
 from utils import EpsilonScheduler
 from ibp import network_bounds, subsequent_bounds
 
-# RADIAL loss function (IBL bounds)
+# RADIAL loss function (IBP bounds)
 def _compute_robust_loss(curr_model, target_model, data, epsilon, kappa, gamma, device, args, epsilon_end=None):
     state, action, reward, next_state, done = data
     #adjust for the substracting mean in model.forward by making the model automatically substract the mean
